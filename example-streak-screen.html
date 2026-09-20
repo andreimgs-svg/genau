@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Genau — streak milestone (generated with genau-mockup-screen skill)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EEF0F4; --card:#FCFCFD;
+    --ink:#0E1116; --soft:#5A6472; --faint:#9AA3B0; --line:#E4E7EC;
+    --blue:#2743E8; --blue-wash:#E4E8FD;
+    --green:#0E7C5A; --green-wash:#DCF0E8;
+    --plum:#6E3AD6; --plum-wash:#EBE3FB;
+    --amber:#8A5A12; --amber-wash:#FAF1DF;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:'Fira Sans',system-ui,sans-serif;
+    background:radial-gradient(1200px 600px at 50% -8%, #fff 0%, var(--paper) 70%);
+    color:var(--ink); padding:48px 20px 72px; -webkit-font-smoothing:antialiased;
+    display:flex; flex-direction:column; align-items:center;
+  }
+  .unit{width:352px}
+  .cap{font-size:13.5px;color:var(--soft);line-height:1.55;margin-top:18px;font-weight:300}
+  .cap b{color:var(--ink);font-weight:600;display:block;margin-bottom:3px;font-size:14px}
+
+  .phone{
+    width:352px;height:740px;background:var(--card);
+    border-radius:44px;border:1px solid rgba(14,17,22,.06);
+    box-shadow:0 32px 80px -32px rgba(14,17,22,.28), 0 2px 8px rgba(14,17,22,.04);
+    display:flex;flex-direction:column;overflow:hidden;position:relative;
+  }
+  .bar{display:flex;align-items:center;justify-content:space-between;padding:24px 24px 0}
+  .mark{display:flex;align-items:center;gap:8px}
+  .dot{width:11px;height:11px;border-radius:50%;background:var(--blue)}
+  .mark span{font-weight:600;font-size:20px;letter-spacing:-.03em}
+  .gear{width:38px;height:38px;border-radius:50%;background:#fff;
+    box-shadow:0 2px 10px rgba(14,17,22,.07);display:flex;align-items:center;
+    justify-content:center;color:var(--soft);font-size:15px}
+
+  .chip{align-self:center;margin-top:18px;background:var(--green-wash);color:var(--green);
+    font-size:12.5px;font-weight:600;padding:7px 16px;border-radius:999px}
+
+  .stage{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    padding:0 26px;text-align:center;min-height:0;overflow:hidden}
+
+  .orb{position:relative;width:148px;height:148px;margin:8px 0 16px;flex:none}
+  .orb .halo{position:absolute;border-radius:50%;background:var(--blue);opacity:.10;
+    animation:pulse 2.6s ease-in-out infinite}
+  .orb .h1{inset:0}
+  .orb .h2{inset:22px;opacity:.16;animation-delay:.5s}
+  .orb .core{position:absolute;inset:44px;border-radius:50%;
+    background:radial-gradient(circle at 34% 28%, #fff 0%, var(--blue) 62%);
+    box-shadow:0 12px 32px -8px rgba(39,67,232,.5)}
+  @keyframes pulse{0%,100%{transform:scale(1);opacity:.10}50%{transform:scale(1.07);opacity:.22}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
+  .state{font-size:13.5px;color:var(--faint);margin-bottom:16px}
+  .de{font-size:29px;line-height:1.22;font-weight:600;letter-spacing:-.03em;text-wrap:balance}
+  .de.sm{font-size:25px}
+  .en{font-size:15px;color:var(--soft);margin-top:12px;line-height:1.45;font-weight:300}
+
+  .milestone{margin-top:18px;font-size:13.5px;color:var(--green);background:var(--green-wash);
+    border-radius:16px;padding:12px 16px;line-height:1.5;text-align:left}
+  .milestone b{display:block;font-size:14.5px;margin-bottom:3px}
+
+  .next{margin-top:20px;width:100%;text-align:left}
+  .next .lead{font-size:12.5px;color:var(--soft)}
+  .next .topic{font-size:17px;font-weight:600;margin-top:3px}
+
+  .ctl{display:flex;align-items:center;justify-content:center;gap:26px;padding:18px 0 10px}
+  .mic{width:78px;height:78px;border-radius:50%;background:var(--blue);display:flex;
+    align-items:center;justify-content:center;flex:none;box-shadow:0 12px 28px -10px rgba(39,67,232,.6)}
+  .side{display:flex;flex-direction:column;align-items:center;gap:7px;width:66px}
+  .side .b{width:50px;height:50px;border-radius:50%;background:#fff;
+    box-shadow:0 2px 12px rgba(14,17,22,.07);display:flex;align-items:center;
+    justify-content:center;color:var(--soft);font-size:13px;font-weight:500}
+  .side span{font-size:11.5px;color:var(--soft)}
+  .foot{text-align:center;font-size:12.5px;color:var(--faint);padding-bottom:92px;line-height:1.5}
+
+  .tabs{position:absolute;left:18px;right:18px;bottom:18px;display:flex;gap:4px;padding:5px;
+    background:rgba(244,246,250,.86);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+    border-radius:999px;box-shadow:0 8px 28px -12px rgba(14,17,22,.28)}
+  .tab{flex:1;padding:9px 0 8px;text-align:center;font-size:11.5px;color:var(--faint);border-radius:999px}
+  .tab.on{color:var(--ink);font-weight:600;background:#fff;box-shadow:0 2px 10px rgba(14,17,22,.08)}
+  .tab u{display:block;font-size:16px;text-decoration:none;margin-bottom:2px;opacity:.8}
+</style>
+</head>
+<body>
+
+<div class="unit">
+<div class="phone">
+  <div class="bar">
+    <div class="mark"><span class="dot"></span><span>genau</span></div>
+    <div class="gear">≡</div>
+  </div>
+  <div class="chip">Nächstes: Wortstellung</div>
+  <div class="stage">
+    <div class="orb"><div class="halo h1"></div><div class="halo h2"></div><div class="core"></div></div>
+    <div class="state">Genau is speaking</div>
+    <div class="de sm">Dritter Dativ-Satz hintereinander richtig — sehr gut.</div>
+    <div class="en">Third dative sentence in a row, correct — very good.</div>
+    <div class="milestone">
+      <b>3× richtig ohne Korrektur</b>
+      Dative after prepositions is stepping back from today's focus. It stays in rotation, just less often.
+    </div>
+    <div class="next">
+      <div class="lead">Tomorrow, probably</div>
+      <div class="topic">Verb-last word order in subclauses</div>
+    </div>
+  </div>
+  <div class="ctl">
+    <div class="side"><div class="b">EN</div><span>In English</span></div>
+    <div class="mic">
+      <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round">
+        <rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
+    </div>
+    <div class="side"><div class="b">☰</div><span>Transcript</span></div>
+  </div>
+  <div class="foot">Microphone on · Keep going with dative</div>
+  <div class="tabs">
+    <div class="tab on"><u>◍</u>Speak</div><div class="tab"><u>▥</u>Patterns</div><div class="tab"><u>▤</u>Words</div>
+  </div>
+</div>
+<p class="cap"><b>Streak milestone (new, generated from the skill)</b>Three corrects in a row is treated as evidence, not a reward — the agent says so out loud and tells you what it's deprioritizing and picking up next, instead of a badge or confetti. No new colors were introduced: green is reused from the existing "positive/up" token, exactly as the design system defines it.</p>
+</div>
+
+</body>
+</html>
