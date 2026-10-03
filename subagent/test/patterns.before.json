@@ -1,0 +1,51 @@
+{
+  "error_patterns": [
+    {
+      "id": "dative-after-prepositions",
+      "name": "Dative after prepositions",
+      "count": 14,
+      "examples": [
+        { "wrong": "mit meinen Bruder", "correct": "mit meinem Bruder" }
+      ]
+    },
+    {
+      "id": "verb-last-subclauses",
+      "name": "Verb last in subclauses",
+      "count": 9,
+      "examples": [
+        { "wrong": "weil ich habe keine Zeit", "correct": "weil ich keine Zeit habe" }
+      ]
+    },
+    {
+      "id": "haben-or-sein",
+      "name": "haben or sein",
+      "count": 7,
+      "examples": [
+        { "wrong": "Ich habe nach Hause gegangen", "correct": "Ich bin nach Hause gegangen" }
+      ]
+    },
+    {
+      "id": "adjective-endings",
+      "name": "Adjective endings",
+      "count": 5,
+      "examples": [
+        { "wrong": "ein guter Idee", "correct": "eine gute Idee" }
+      ]
+    },
+    {
+      "id": "two-way-prepositions",
+      "name": "Two-way prepositions",
+      "count": 4,
+      "examples": [
+        { "wrong": "Ich gehe in der Küche", "correct": "Ich gehe in die Küche" }
+      ]
+    }
+  ],
+  "assisted_vocab": [
+    { "lemma": "die Verspätung", "gloss": "the delay" },
+    { "lemma": "beantragen", "gloss": "to apply for, formally" }
+  ],
+  "one_off_notes": [],
+  "sessions_analyzed": 18,
+  "last_focus": "dative-after-prepositions"
+}

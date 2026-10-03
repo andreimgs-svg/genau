@@ -1,0 +1,63 @@
+{
+  "error_patterns": [
+    {
+      "id": "dative-after-prepositions",
+      "name": "Dative after prepositions",
+      "count": 15,
+      "examples": [
+        { "wrong": "mit meinen Bruder", "correct": "mit meinem Bruder" },
+        { "wrong": "mit mein Schwester", "correct": "mit meiner Schwester" }
+      ]
+    },
+    {
+      "id": "verb-last-subclauses",
+      "name": "Verb last in subclauses",
+      "count": 9,
+      "examples": [
+        { "wrong": "weil ich habe keine Zeit", "correct": "weil ich keine Zeit habe" }
+      ]
+    },
+    {
+      "id": "haben-or-sein",
+      "name": "haben or sein",
+      "count": 8,
+      "examples": [
+        { "wrong": "Ich habe nach Hause gegangen", "correct": "Ich bin nach Hause gegangen" },
+        { "wrong": "Ich habe sehr müde gewesen", "correct": "Ich bin sehr müde gewesen" }
+      ]
+    },
+    {
+      "id": "adjective-endings",
+      "name": "Adjective endings",
+      "count": 5,
+      "examples": [
+        { "wrong": "ein guter Idee", "correct": "eine gute Idee" }
+      ]
+    },
+    {
+      "id": "two-way-prepositions",
+      "name": "Two-way prepositions",
+      "count": 4,
+      "examples": [
+        { "wrong": "Ich gehe in der Küche", "correct": "Ich gehe in die Küche" }
+      ]
+    },
+    {
+      "id": "accusative-direct-object",
+      "name": "Accusative case for direct objects",
+      "count": 1,
+      "trend": "new",
+      "examples": [
+        { "wrong": "ich habe mein Geldbeutel vergessen", "correct": "ich habe meinen Geldbeutel vergessen" }
+      ]
+    }
+  ],
+  "assisted_vocab": [
+    { "lemma": "die Verspätung", "gloss": "the delay" },
+    { "lemma": "beantragen", "gloss": "to apply for, formally" },
+    { "lemma": "überraschend", "gloss": "surprising" }
+  ],
+  "one_off_notes": [],
+  "sessions_analyzed": 19,
+  "last_focus": "dative-after-prepositions"
+}
