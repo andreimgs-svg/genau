@@ -1,0 +1,17 @@
+{
+  "next_focus": {
+    "id": "dative-after-prepositions",
+    "name": "Dative after prepositions",
+    "reason": "Still the highest-count pattern (15) and it recurred again this session, so there is no evidence yet that it has improved enough to move off it."
+  },
+  "vocab_to_reinforce": [
+    "die Verspätung",
+    "beantragen",
+    "überraschend"
+  ],
+  "opening_line": {
+    "de": "Lass uns heute wieder mit dem Dativ üben.",
+    "en": "Dative again today — it's still our top pattern."
+  },
+  "degraded_mode": false
+}

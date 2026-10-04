@@ -1,0 +1,10 @@
+{
+  "words": [
+    { "lemma": "der Feierabend", "gloss": "the end of the working day", "strength": "Steady", "given": false },
+    { "lemma": "sich kümmern um", "gloss": "to take care of", "strength": "Growing", "given": false },
+    { "lemma": "zuständig", "gloss": "responsible, in charge of", "strength": "Growing", "given": false },
+    { "lemma": "die Verspätung", "gloss": "the delay", "strength": "Fragile", "given": true },
+    { "lemma": "beantragen", "gloss": "to apply for, formally", "strength": "Fragile", "given": true },
+    { "lemma": "auffallen", "gloss": "to stand out, to be noticed", "strength": "Growing", "given": false }
+  ]
+}
